@@ -3,3 +3,7 @@
 	border: 1px dotted lightgreen;
 	border-radius: 5px;
 }
+a h2{
+	color: lightgreen;
+	text-transform: uppercase;
+}

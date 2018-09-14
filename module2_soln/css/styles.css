@@ -1,0 +1,47 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+.title{
+margin-bottom: 15px;
+text-align: center;
+color: lightgreen;
+
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  color: lightgreen;
+}
+
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+  padding: 15px
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+
+  .col-lg-4 {
+    float: left;
+    width: 33.3%;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 10px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+    width: 50%;
+
+  }
+}
+div>h2{
+  color: #85C1E9;
+}
